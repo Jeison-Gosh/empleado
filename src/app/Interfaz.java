@@ -79,7 +79,7 @@ public class Interfaz extends JFrame {
 
         user = new JLabel("•Usuario•");
         user.setForeground(Color.decode("#51D1F6"));
-        user.setHorizontalAlignment(SwingConstants.LEFT);
+        user.setHorizontalAlignment(SwingConstants.LEFT);   
         user.setVerticalAlignment(SwingConstants.CENTER);
         user.setFont(new Font("Cambria Math", 1, 20));
         user.setBounds(50, 150, 130, 50);
@@ -370,6 +370,7 @@ public class Interfaz extends JFrame {
         scroll.setWheelScrollingEnabled(false);
 
         JFrame marco = new JFrame();
+        marco.setBackground(Color.decode("#212121"));
         marco.setSize(750, 180);
         marco.setLayout(null);
         marco.setResizable(false);
